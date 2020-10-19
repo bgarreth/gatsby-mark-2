@@ -5,7 +5,9 @@
   "version": "0.1.0",
   "author": "Anna Morawska <a.morawska@mdbootstrap.com>",
   "dependencies": {
+    "@aws-amplify/ui-react": "^0.2.24",
     "@svgr/webpack": "^4.1.0",
+    "aws-amplify": "^3.3.4",
     "gatsby": "^2.0.76",
     "gatsby-image": "^2.0.20",
     "gatsby-plugin-manifest": "^2.0.9",

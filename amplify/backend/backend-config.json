@@ -1,0 +1,10 @@
+{
+  "auth": {
+    "wildwood2020ade1de54": {
+      "service": "Cognito",
+      "providerPlugin": "awscloudformation",
+      "dependsOn": [],
+      "customAuth": false
+    }
+  }
+}

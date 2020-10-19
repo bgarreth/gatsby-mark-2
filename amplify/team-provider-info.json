@@ -1,0 +1,20 @@
+{
+  "dev": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-wildwood2020-dev-100112-authRole",
+      "UnauthRoleArn": "arn:aws:iam::299854659728:role/amplify-wildwood2020-dev-100112-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::299854659728:role/amplify-wildwood2020-dev-100112-authRole",
+      "Region": "eu-west-1",
+      "DeploymentBucketName": "amplify-wildwood2020-dev-100112-deployment",
+      "UnauthRoleName": "amplify-wildwood2020-dev-100112-unauthRole",
+      "StackName": "amplify-wildwood2020-dev-100112",
+      "StackId": "arn:aws:cloudformation:eu-west-1:299854659728:stack/amplify-wildwood2020-dev-100112/05aa8070-11f2-11eb-9ad5-02e586bc56f0",
+      "AmplifyAppId": "dvnk3914gdvrw"
+    },
+    "categories": {
+      "auth": {
+        "wildwood2020ade1de54": {}
+      }
+    }
+  }
+}
