@@ -6,6 +6,9 @@ import Carousel from '../components/carousel';
 import AboutSection from '../components/aboutSection'
 import Card from '../components/card'
 import { MDBRow } from 'mdbreact'
+import Amplify from 'aws-amplify'
+import config from '../aws-exports'
+Amplify.configure(config)
 
 class App extends Component {
   render() {
