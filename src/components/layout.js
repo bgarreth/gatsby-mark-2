@@ -9,9 +9,9 @@ import { AmplifyAuthenticator, AmplifySignOut } from '@aws-amplify/ui-react';
 const Layout = ({ children }) => (
      <>
         <Navbar />
-        <AmplifyAuthenticator>
+       
           {children}
-          </AmplifyAuthenticator>
+        
         <Footer />
       </>
 )

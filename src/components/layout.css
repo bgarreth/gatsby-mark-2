@@ -26,3 +26,16 @@
     padding: 4rem 0;
 }
 
+:root {
+  --amplify-primary-color: #ff6347;
+  --amplify-primary-tint: #ff7359;
+  --amplify-primary-shade: #e0573e;
+}
+
+amplify-authenticator {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex: 1;
+  height: 100vh;
+}
