@@ -26,9 +26,13 @@ class NavbarPage extends Component {
           <MDBNavbarToggler name="navbar-toggler" onClick={this.toggleCollapse} />
           <MDBCollapse id="navbarCollapse3" isOpen={this.state.isOpen} navbar>
             <MDBNavbarNav left>
-                <CustomNavLink to="#!">Home</CustomNavLink>
-                <CustomNavLink to="/live">live</CustomNavLink>
+                <CustomNavLink to="/">Home</CustomNavLink>
+                <button type="button" class="btn btn-info Ripple-parent">
+                 <CustomNavLink to="/live">live</CustomNavLink>
+                </button>
+               
                 <CustomNavLink to="/Projects">Projects</CustomNavLink>
+             
                 <MDBNavItem>
                 <MDBDropdown>
                   <MDBDropdownToggle nav caret>
