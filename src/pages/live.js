@@ -6,14 +6,14 @@ import Layout from "../components/layout";
 import SEO from "../components/seo";
 import { AmplifyAuthenticator, AmplifySignOut } from '@aws-amplify/ui-react'
 //import Auth from "@aws-amplify/auth";
-import Amplify, { API, graphqlOperation,Auth,Hub,Logger } from 'aws-amplify';
+import Amplify, { API,Auth,Hub,Logger } from 'aws-amplify';
 
 
     
     function Live (){
         
     const [user, setUser] = useState(null);
-     const [admin, setAdmin] = useState(false);
+    const [admin, setAdmin] = useState(false);
      
       const logger = new Logger('My-Logger');
 
